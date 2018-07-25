@@ -21,14 +21,18 @@ Note:
 
 The idea for this exercise has been taken from the excellent course "Cryptography I" on Coursera (https://www.coursera.org/course/crypto)
 
-You may find the following resources useful:
-<ul>
-  <il>https://docs.python.org/3/library/argparse.html</il>
-<il>https://docs.python.org/3/library/binascii.html</il>
-<il>https://docs.python.org/3/library/stdtypes.html#string-methods</il>
-<il>https://docs.python.org/3/library/functions.html#func-range</il>
-<il>https://docs.python.org/3/library/functions.html#enumerate</il>
-<il>https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations</il>
-</ul>
+Using Python to tackle the challenge, you may find the following resources useful:
+
+https://docs.python.org/3/library/argparse.html
+
+https://docs.python.org/3/library/binascii.html
+
+https://docs.python.org/3/library/stdtypes.html#string-methods
+
+https://docs.python.org/3/library/functions.html#func-range
+
+https://docs.python.org/3/library/functions.html#enumerate
+
+https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations
 
 
