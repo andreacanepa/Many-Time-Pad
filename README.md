@@ -5,7 +5,9 @@ It satisfies the perfect-secrecy's requirements.
 
 # perfect secrecy
 
-P(M=m|C=c)=P(M=m) i.e. seeing a ciphertext doesn't give you any extra information about the plaintext. The probability of seeing a message m after the ciphertext has been observed is the same as the probability of the message without the ciphertext.
+<p><b>P(M=m|C=c)=P(M=m)</b></p>
+
+<p> i.e. seeing a ciphertext doesn't give you any extra information about the plaintext. The probability of seeing a message m after the ciphertext has been observed is the same as the probability of the message without the ciphertext. </p>
 
 # many-time-pad
 
