@@ -24,22 +24,22 @@ def main():
 
 	# TODO
 
-    list_of_list = list() #creo lista di liste (senza elem)
+    list_of_list = list() 
     max_line_length = 0
-    for line_of_ciphertexts in ciphertexts: #per ogni linea nel ciphertexts
+    for line_of_ciphertexts in ciphertexts: 
         if (len(line_of_ciphertexts) > max_line_length):
-            max_line_length = len(line_of_ciphertexts) #mi salvo valore linea piu lunga
-        line_aux = list() #creo lista per ogni linea
+            max_line_length = len(line_of_ciphertexts) 
+        line_aux = list() #
         for c in line_of_ciphertexts:
-            line_aux.append(c) #creo liste con tutti i bytes
-        list_of_list.append(line_aux) #inserisco lista in lista di liste
+            line_aux.append(c)
+        list_of_list.append(line_aux) 
 
-    zero_to_max_line_length = range(0,max_line_length) #creo range da 0 a 64
+    zero_to_max_line_length = range(0,max_line_length) 
 
 
-    list_of_columns = list() #costruisco lista
+    list_of_columns = list() 
     for step in zero_to_max_line_length:
-        list_of_columns.insert(step,list()) #metto 64 liste vuote nella lista di liste
+        list_of_columns.insert(step,list()) 
 
     for line in list_of_list:
         for index, item in enumerate(line,0):
@@ -47,13 +47,13 @@ def main():
             aux_for_columns.append(item)
             list_of_columns.insert(index,aux_for_columns)
 
-    spaces = list() #lista di caratteri spazio
+    spaces = list() 
     pad = list()
 
     
     for column in list_of_columns:
         mydict = {}
-        #print("---------COLONNA----------")
+        #print("---------Column----------")
         for i in column:
             for j in column:
                 result = i ^ j
